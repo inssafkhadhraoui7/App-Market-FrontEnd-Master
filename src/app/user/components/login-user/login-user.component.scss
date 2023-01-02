@@ -1,0 +1,67 @@
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid rgb(216, 200, 182);
+    background-attachment: fixed;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+h2{
+    background-color: #0DB8DE;
+    color: white;
+    text-align: center;
+
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+#container label{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: black;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #0f0f10;
+}
+
+/* Set a style for all buttons */
+button[type=submit] {
+    background: linear-gradient(to right, #21609b, #ec669e);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button[type=submit]:hover {
+    background-color: white;
+    color: #1177e4;
+    border: 1px solid #1177e4;
+}
+h5{
+    text-align: right;
+}
+

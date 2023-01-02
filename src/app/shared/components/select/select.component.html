@@ -1,0 +1,18 @@
+<div class="container">
+    <img  class="herro" src="../../../../assets/hero-1.jpg">
+    <div class="text">
+        <h6 id="h6" >Collection Été</h6>
+        <h2 id="H02">Collections Automne - Hiver 2023</h2>
+        <p id="p" >Une marque spécialisée dans la création d'essentiels de luxe. Fabriqué de manière éthique avec une inébranlable
+        engagement envers une qualité exceptionnelle.</p>
+    </div>
+    </div>
+    <br>
+    <br>
+<div style="align-items: center;">
+<label for=""><h3>{{title}} : </h3></label>
+<select class="form-control" (change)="detectChanges($event)">
+    <option value="all" selected>All</option>
+    <option value="{{option}}" *ngFor="let option of data">{{option}}</option>
+</select>
+</div>

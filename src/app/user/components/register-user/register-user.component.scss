@@ -1,0 +1,68 @@
+.btn{
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;}
+    .btn:hover{
+        background-color: white;
+        color: #1177e4;
+        border: 1px solid #1177e4;
+    }
+    #container{
+        width:400px;
+        margin:0 auto;
+        margin-top:10%;
+      }
+      /* Bordered form */
+      .form {
+        width:100%;
+        padding: 30px;
+        border: 1px solid #f1f1f1;
+        background: #fff;
+        background-attachment: fixed;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      }
+      #container h3{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      #container label{
+        width: 38%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      /* Full-width inputs */
+      .innp{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #020709;
+        border-top: 0px;
+        border-radius: 0px;
+        font-weight: black;
+        outline: 0;
+        margin-bottom: 20px;
+        padding-left: 0px;
+        color: #070708;
+        background-color:#8cddeb ;
+      }
+      
+      /* Set a style for all buttons */
+      #container button[type=submit] {
+        background-color:#8cddeb;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      #container button[type=submit]:hover {
+        background-color: white;
+        color: #8cddeb;
+        border: 1px solid #8cddeb;
+      }

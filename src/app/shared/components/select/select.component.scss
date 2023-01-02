@@ -1,0 +1,49 @@
+img{
+	height: auto;
+    width: 1200px;;
+    display:block;
+}
+div{
+    text-align: center;
+}
+label{
+    text-decoration: underline solid #e4087e;
+    text-shadow: 3px 2px #000;
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    top: 0;
+	opacity: 1;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: black;
+    width: 70%;
+}
+.text{
+    background: -webkit-linear-gradient(#e4087e, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text h6 {
+	top: 0;
+	opacity: 1;
+}
+
+.text h2 {
+	top: 0;
+	opacity: 1;
+}
+
+.text p {
+	top: 0;
+	opacity: 1;
+}
